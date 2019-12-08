@@ -155,7 +155,7 @@ var _default2 = {
             // Expects to be a DOMElement
 
             default:
-              return void 0;
+              return this.inViewportRoot;
           }
         }.call(this),
         rootMargin: this.inViewportRootMargin,
